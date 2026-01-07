@@ -1,4 +1,5 @@
 import './App.css';
+import DevFeature from './DevFeature';
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
           <h3>Extensible</h3>
           <p>Easily add libraries and components as needed.</p>
         </div>
+      </section>
+
+      <section id='dev' className='dev-area'>
+        <DevFeature />
       </section>
 
       <footer className='footer'>
