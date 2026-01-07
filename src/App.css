@@ -64,3 +64,33 @@
   color: var(--muted);
   text-align: center;
 }
+
+.dev-area {
+  margin-top: 2rem;
+}
+.dev-feature {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent);
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+.dev-banner {
+  display: inline-block;
+  background: #ff6b6b;
+  color: white;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 520px) {
+  .title {
+    font-size: 1.6rem;
+  }
+  .cta-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
